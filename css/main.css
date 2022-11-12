@@ -19,6 +19,27 @@
  * Blog
  * Contact
  */
+ .icon.major {
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-radius: 3px;
+  border: solid 2px #fff;
+  display: inline-block;
+  font-size: 1.9em;
+  height: calc(3em + 2px);
+  line-height: 3em;
+  text-align: center;
+  width: calc(3em + 2px);
+}
+
+.ImagesIcon {
+  color: #6F73D2;
+  display: inline-block;
+    font-size: 58px;
+    margin-bottom: 22px;
+}
 /*----------- Globals -----------*/
 /* Disable outline */
 :focus {
@@ -1203,6 +1224,7 @@ hr {
   display: inline-block;
   font-size: 58px;
   margin-bottom: 22px;
+
 }
 
 .services-section .single-service .service-title {
